@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NFC Android</string>
+    <string name="servicedesc">NFC emulation service</string>
+    <string name="aiddescription">NFC emulation service</string>
+    <string name="credit">© Admiral Sultano Harly 2022</string>
+
+    <!--Basic alert-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error---></string>
+
+    <!--NFC alert-->
+    <string name="nfc_ready">NFC Ready</string>
+    <string name="nfc_not_supported">NFC Not Supported!</string>
+    <string name="card_read_failed">Failed to read card information.</string>
+    <string name="no_data_in_database">There is no data in database, start adding now</string>
+    <string name="input_command">Please Input the command!</string>
+    <string name="command_must_have_even_number">Hex string must have even number of characters</string>
+    <string name="tap_the_card">Please tap the card!</string>
+    <string name="realm_corrupt">Realm Corrupt!</string>
+
+    <!--Main Activity-->
+    <string name="main_data">Data:</string>
+    <string name="main_input_command">Input Command</string>
+    <string name="main_send_command">Send Command</string>
+    <string name="main_log">Logs : </string>
+    <string name="main_clear">Clear</string>
+    <string name="main_delete">Delete</string>
+
+    <!--Response Sample-->
+    <string name="response_uid">> Chip Detected: 02f580f651 / 8F:71:D9:09 (4 bytes)</string>
+    <string name="response_command">> Sending bytes: 00:B3:00:00:3F</string>
+    <string name="response_result">> Result: 60:32:98:60:49:17:57:47:21:11:01:20:64:71:00:62:00:91:03:01:06:00:00:00:00:00:03:C4:ED:AD:36:07:39:91:6C:90:2B:6D:A9:23:B3:95:17:4A:48:2D:71:83:0D:1D:F5:50:C3:00:22:02:19:03:38:79:10:FF:FF:90:00</string>
+
+</resources>
